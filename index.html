@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Main</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            width: 100vp;
+            height: 100vp;
+            background-color: #000;
+            margin: 0 auto;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        li,
+        a {
+            font-family: sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+            color: white;
+            text-decoration: none;
+        }
+
+        header {
+            display: flex;
+            flex-direction: :row;
+            justify-content: center;
+            align-items: center;
+            padding: 30px 10%;
+            border-bottom: 1px lightgray solid;
+        }
+
+        .header__nav {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 12px;
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .header__nav li {
+            padding: 8px 12px;
+            display: inline-flex;
+            padding: 0px 20px;
+        }
+
+        .header__nav li a {
+            transition: all 0.3s ease 0s;
+        }
+
+
+        .header__nav li a:hover {
+            color: purple;
+        }
+
+
+
+
+
+
+
+
+        .content-container {
+            background-color: black;
+            width: 100%;
+            height: 700px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .bookcover {
+            color: white;
+            width: 50%;
+            height: 100%;
+            background-color: rgba(0, 255, 0, 0.1);
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+        }
+
+        .topic {
+        color: white;
+        }
+
+        .logo {
+            align-self: center;
+            width: 500px;
+            height: auto;
+        }
+
+        .info {
+            align-content: center;
+        }
+
+
+
+
+
+        .page1 {
+            color: white;
+            display: block;
+            width: 50%;
+            height: 100%;
+            background-color: rgba(0, 0, 255, 0.1)
+        }
+        .page1 .text{display: flex;justify-content:center;align-content: center;flex-direction: column;}
+
+        .page1 h2{text-align:center}
+
+
+
+        .content-container2 {
+            background-color: black;
+            width: 100%;
+            height: 700px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .content-container2 img {
+            width: 300px;
+            height: auto;
+        }
+
+        .page2 {
+            color: white;
+            width: 50%;
+            height: 100%;
+            background-color: rgba(0, 255, 0, 0.1);
+            justify-content: column;
+        }
+
+        .page3 {
+            color: white;
+            display: block;
+            width: 50%;
+            height: 100%;
+            background-color: rgba(0, 0, 255, 0.1)
+        }
+
+
+
+
+
+
+        .content-container3 {
+            background-color: black;
+            width: 100%;
+            height: 700px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .content-container3 img {
+            width: 300px;
+            height: auto;
+        }
+
+        .content-container3 h3 {
+            display: inline
+        }
+
+        .page4 {
+            color: white;
+            width: 50%;
+            height: 100%;
+            background-color: rgba(0, 255, 0, 0.1);
+            justify-content: column;
+        }
+
+        .page5 {
+            color: white;
+            display: block;
+            width: 50%;
+            height: 100%;
+            background-color: rgba(0, 0, 255, 0.1)
+        }
+    </style>
+    <link rel="stylesheet" href="css/swiper.css">
+
+</head>
+
+
+<body>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <header>
+        <div class="header__nav">
+            <ul>
+                <li><a href="works_main.html">Works</a></li>
+                <li><a href="contents_team.html">Contents</a></li>
+                <li><a href="index.html">Main</a></li>
+                <li><a href="about-us.html">About-Us</a></li>
+                <li><a href="goods.html">Goods</a></li>
+            </ul>
+        </div>
+    </header>
+                <section>
+
+                    <div class="content-container">
+
+                        <div class="bookcover">
+                            <div class="topic">TOPIC IN<br>
+                                THIS ISSUE :<br>
+                                COVID-19</div>
+                            <img src="img/logo.png" alt="logo" class="logo">
+                            <div class="info">IFF WEB MEGAZINE<br>
+                                7 8月</div>
+
+
+                        </div>
+                        <div class="page1">
+
+                           <div class="text"> <h2>ABOUT IFF </h2>
+                           <p> 피아식별은 매 호마다 다른 주제를
+                            선정해 청년작가들의 작품을 전시합니다.
+                            COVID-19시대, 감염병이 창궐하고
+                            새로운 뉴노멀이 꿈틀거리는 지금
+                            여러분은 어떻게 살고 계신가요?
+                            서로의 만남이 차단된 현재 작가들은
+                            어떤 과정을 통해 창작을 하고 있으며
+                            어떤 방식으로 여러분들을 만나고자
+                            하고 있을까요?</p></div>
+                        </div>
+
+
+
+                    </div>
+
+
+
+
+
+                </section>
+            </div>
+            <div class="swiper-slide">
+                <header>
+                </header>
+                <section>
+
+                    <div class="content-container2">
+
+                        <div class="page2">
+
+                            <img src="img/gy1.png" alt="gy1">
+                            <img src="img/gy2.png" alt="gy2">
+                            <h4>KIM KYU YEON
+                                여러분은 방상시를 아시나요?</h4>
+                        </div>
+                        <div class="page3">
+
+                            <img src="img/ih1.png" alt="ih1">
+                            <img src="img/ih2.png" alt="ih2">
+                            <h4>SONG IN HYEOK
+                                박쥐전하납시오.</h4>
+                        </div>
+
+
+
+                    </div>
+
+
+
+
+
+                </section>
+            </div>
+            <div class="swiper-slide">
+                <header>
+                </header>
+                <section>
+
+                    <div class="content-container3">
+
+                        <div class="page4">
+                            <h2>[전염병 모티브 해석]</h2>
+                            <img src="img/ajin.png" alt="ajin">
+                            <h3> JO A JIN
+                                방상시</h3>
+                            <img src="img/ksh.png" alt="ksh">
+                            <h3> KIM SEO HYUN 마마신</h3>
+                        </div>
+                        <div class="page5">
+                            <img src="img/chule.png" alt="chule">
+                            <img src="img/meae.png" alt="meae">
+                            <h5>철애와 미애
+                                성 세바티아누스</h5>
+                            <h5>처용</h5>
+                        </div>
+
+
+
+                    </div>
+
+
+
+
+
+                </section>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+
+
+        <!-- Swiper JS -->
+        <script src="js/swiper.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+                cssMode: true,
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+                pagination: {
+                    el: '.swiper-pagination'
+                },
+                mousewheel: true,
+                keyboard: true,
+            });
+        </script>
+
+
+
+
+</body></html>
